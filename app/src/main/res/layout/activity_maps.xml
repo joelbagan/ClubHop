@@ -31,21 +31,23 @@
 
             <Spinner
                 android:layout_width="wrap_content"
-                android:layout_height="32dp"
+                android:layout_height="32sp"
                 android:dropDownWidth="match_parent"
                 android:id="@+id/spinner"
                 android:prompt="@string/Filter"
-                android:entries="@array/planets_array"
+                android:entries="@array/filters_array"
                 android:contentDescription="@string/Filter"
                 android:drawSelectorOnTop="true"
-                android:popupBackground="#e6fff2"
-                android:background="#e6fff2"
+                android:popupBackground="@color/map_widgets"
+                android:background="@color/map_widgets"
                 android:textAlignment="center"
                 android:clipChildren="true"
-                android:layout_marginTop="14dp"
-                android:layout_marginStart="13dp"
+                android:layout_marginTop="14sp"
+                android:layout_marginStart="13sp"
                 android:layout_alignParentTop="true"
-                android:layout_alignParentStart="true" />
+                android:layout_alignParentStart="true"
+                android:elevation="5sp"
+                />
         </RelativeLayout>
 
     <android.support.design.widget.NavigationView

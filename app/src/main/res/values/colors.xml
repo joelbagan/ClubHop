@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="header_background_color">#d5efeb</color>
+    <color name="map_widgets">#c6ffffff</color>
 </resources>

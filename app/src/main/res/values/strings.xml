@@ -5,7 +5,7 @@
     <string name="google_maps_key">AIzaSyAJ61-6sGoYenAjtbWItbTcu0DGxV1E8vE</string>
     <string name="title_activity_maps">Map</string>
     <string name="Filter">Filter</string>
-    <string-array name="planets_array">
+    <string-array name="filters_array">
         <item> All </item>
         <item> Today </item>
         <item> Public </item>

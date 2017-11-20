@@ -146,7 +146,7 @@ public class MapsActivity extends FragmentActivity implements
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
-                switch(item.getItemId()) { // get from drawer_menu.xml
+                switch (item.getItemId()) { // get from drawer_menu.xml
                     case R.id.home_id:
                         handleNewLocation(mLastLocation);
                         drawerLayout.closeDrawers();
@@ -203,12 +203,12 @@ public class MapsActivity extends FragmentActivity implements
         mMap.setOnMarkerClickListener(this);
         try {
             mMap.setMyLocationEnabled(true);
-        } catch ( SecurityException e ){
+        } catch (SecurityException e) {
             Toast.makeText(MapsActivity.this, "location permission not granted", Toast.LENGTH_SHORT).show();
         }
 
         Spinner filterMenu = (Spinner) findViewById(R.id.spinner);
-        filterHandler.setUp(filterMenu,getBaseContext(), mMap);
+        filterHandler.setUp(filterMenu, getBaseContext(), mMap);
         //Example markers
         /*
         Marker privateEx = mMap.addMarker(new PrivateMarkerOptions()
@@ -304,6 +304,7 @@ public class MapsActivity extends FragmentActivity implements
             Log.i(TAG, "Connection failed: ConnectionResult.getErrorCode() = " + result.getErrorCode());
         }
     }
+
     @Override
     public void onLocationChanged(Location location) {
         LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
