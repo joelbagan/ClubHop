@@ -22,6 +22,12 @@ import cs48.ucsb.edu.clubhop.FilterCriteria.CriteriaPublic;
 import cs48.ucsb.edu.clubhop.FilterCriteria.CriteriaToday;
 import cs48.ucsb.edu.clubhop.User.UserEventsModel;
 
+
+/**
+ *
+ * @author Joel
+ * @author Sean
+ */
 public class FilterHandler {
 
     public void setUp(Spinner filterMenu, final Context context, final GoogleMap map) {
@@ -125,14 +131,14 @@ public class FilterHandler {
                             break;
                         }
                     default:
-
+                        Toast.makeText(context, "Invalid Filter", Toast.LENGTH_SHORT).show();
                         break;
                 }
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parentView) {
-                // your code here
+
             }
 
         });

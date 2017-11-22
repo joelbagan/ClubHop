@@ -44,7 +44,6 @@ import cs48.ucsb.edu.clubhop.User.UserEventsModelListener;
 
 import static cs48.ucsb.edu.clubhop.R.id.map;
 
-// Navigation
 
 public class MapsActivity extends FragmentActivity implements
         OnMapReadyCallback,
@@ -93,8 +92,6 @@ public class MapsActivity extends FragmentActivity implements
 
         // Spinner(filter menu)
         filterHandler = new FilterHandler();
-
-
         markerHandler = new MarkerHandler();
 
         // Setting up the UserEventsModel listener

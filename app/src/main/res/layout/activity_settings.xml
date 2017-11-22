@@ -33,25 +33,29 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_standard_map"
-                android:id="@+id/standardButton" />
+                android:id="@+id/standardButton"
+                android:elevation="6dp"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_night_map"
-                android:id="@+id/nightButton" />
+                android:id="@+id/nightButton"
+                android:elevation="6dp"/>
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_retro_map"
-                android:id="@+id/retroButton" />
+                android:id="@+id/retroButton"
+                android:elevation="6dp" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@mipmap/ic_aub_map"
-                android:id="@+id/aubButton" />
+                android:id="@+id/aubButton"
+                android:elevation="6dp" />
 
     </LinearLayout>
 </LinearLayout>

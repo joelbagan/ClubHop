@@ -12,6 +12,12 @@ import android.widget.TextView;
 
 import java.io.InputStream;
 
+
+/**
+ *
+ * @author Joel B.
+ * @author Bryanna P.
+ */
 public class EventPageActivity extends AppCompatActivity {
 
     @Override

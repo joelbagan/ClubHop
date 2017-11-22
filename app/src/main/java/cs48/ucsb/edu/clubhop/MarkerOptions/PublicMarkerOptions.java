@@ -8,6 +8,8 @@ import cs48.ucsb.edu.clubhop.User.FacebookEvent;
 
 /**
  * Created by Joel on 2/17/2017.
+ *
+ * @author Joel
  */
 
 public class PublicMarkerOptions extends AbstractMarkerOptions {

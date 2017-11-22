@@ -5,14 +5,13 @@ import java.util.ArrayList;
 import cs48.ucsb.edu.clubhop.R;
 
 /**
- * Created by bryannaphan on 2/23/17.
- */
-
-/**
+ *  * Created by bryannaphan on 2/23/17.
  *  A class that holds all of the Settings chosen by a user.
  *
  *  This class is implemented as a singleton with a static instance, allowing
  *  any of the other classes in the project to access the Model's data.
+ *
+ *  @author Bryanna P.
  */
 
 public class SettingsModel {

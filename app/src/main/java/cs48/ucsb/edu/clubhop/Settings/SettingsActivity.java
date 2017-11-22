@@ -8,6 +8,9 @@ import android.widget.Toast;
 
 import cs48.ucsb.edu.clubhop.R;
 
+/**
+ * @author Bryanna P.
+ */
 public class SettingsActivity extends AppCompatActivity {
 
     @Override
